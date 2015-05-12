@@ -11,7 +11,7 @@ $options = array(
     'type' => 'jira',
     'name' => 'my_company',
 );
-$storage  = \AndKirby\CredentialsStorage\Storage($options);
+$storage  = AndKirby\CredentialsStorage\Storage($options);
 $login    = $storage->getLogin();
 $password = $storage->getPassword();
 ```
